@@ -7,6 +7,5 @@ app_name = MenuConfig.name
 
 
 urlpatterns = [
-    # path('create/', ProductCreateAPIView.as_view(), name='product_create'),
     path('foods/', FoodListAPIView.as_view(), name='foods_list'),
 ]
